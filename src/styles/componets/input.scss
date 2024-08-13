@@ -1,0 +1,47 @@
+input[type='text'],
+input[type='password'],
+input[type='number'] {
+  align-items: center;
+  padding: 4px 0px 4px 16px;
+  background: var(--input-disabled-color);
+  border-radius: 8px;
+  padding: 19px 16px;
+  border: 1px solid transparent;
+  transition: var(--el-transition);
+  height: 52px;
+}
+
+input:focus {
+  background: var(--primary-inv-color);
+  border-radius: 8px;
+  border: 1px solid var(--primary-second-color);
+
+  &::placeholder {
+    color: var(--input-disabled-color);
+  }
+}
+
+input,
+select,
+textarea {
+  color: var(--input-text-color);
+}
+
+input::placeholder {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--input-placeholder-color);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}

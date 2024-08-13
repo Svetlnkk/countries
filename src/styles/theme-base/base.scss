@@ -1,0 +1,55 @@
+:root {
+  --font-family: 'Segoe UI', sans-serif;
+
+  --bg-color: #fbfbfb;
+
+  --primary-color: #001e4c;
+  --primary-second-color: #fe9b00;
+  --primary-secondary-color: #a1acbd;
+  --primary-tertiary-color: #c7ced8;
+  --primary-inv-color: #ffffff;
+  --primary-text-color: #fcfcfd;
+
+  --primary-default-btn: #fe9b00;
+  --primary-hover-btn: #ffcc33;
+  --primary-pressed-btn: #fe7002;
+  --primary-disabled-btn: #fe9b0066;
+  --secondary-default-btn: #eff2fa;
+  --secondary-hover-btn: #cad5f2;
+  --secondary-pressed-btn: #a9b1c8;
+  --secondary-disabled-btn: #eff2fa66;
+
+  --placeholder-color: #b3bcca;
+  --input-text-color: #001e4c;
+  --error-text-color: #ff3636;
+  --text-color: #001e4c;
+
+  --input-disabled-color: #f1f1f5;
+  --input-hover-color: #ededf3;
+  --input-fillied-error: #fee0e0;
+  --input-placeholder-color: #98a2b3;
+
+  --icon-primary-color: #d3d7dc;
+
+  --el-transition: background-color 0.2s, color 0.2s, border-color 0.2;
+
+  --border-radius: 8px;
+
+  --btn-pad-inline: 16px;
+
+  --font-weight: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 600;
+
+  --btn-height: 54px;
+
+  color-scheme: light;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --font-size: 16px;
+    --font-size-sm: 16px;
+    --font-size-lg: 32px;
+  }
+}
